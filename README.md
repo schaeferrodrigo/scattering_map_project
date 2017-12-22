@@ -25,6 +25,13 @@ We have to look for the intersecction between crests and NHIM lines.![tau](https
 
 ![eq_crest](https://latex.codecogs.com/gif.latex?%5Calpha%28I%29%5Cmu_1%20%5Csin%28%5Cvarphi%20-%20I%5Ctau%29%20&plus;%20%5Csin%28-%5Ctau%29%20%3D%200)
 
+Steps:
+- I begin with an initial value tau_0 = 0.
+- to find the first tau_k = tau_0 + k* step such that (eq_crest( I , theta , tau_0 ) * eq_crest( I , theta , tau_k ) )< 0  (This is almost completely true, indeed I change tau_0 in order to obtain the next step faster).
+- to apply the bissection method for these candidates.
+- to apply the secant method to obtain a better solution.
+
+
 
 
 
