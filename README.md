@@ -7,7 +7,10 @@
 ## The simplest perturbation:
 
 This case is published on [DS2107](https://link.springer.com/article/10.1134/S1560354717010051)
-$$\frac{1}}{2})$$
+
+### Melnikov Potential
+
+![Meln_pote_1](https://latex.codecogs.com/gif.latex?%5Cmathcal%7BL%7D%5E*%28I%2C%5Ctheta%29%20%3D%20A_1%28I%29%5Ccos%28%5Ctheta%20-%20I%5Ctau%5E*%29%20&plus;%20A_2%5Ccos%28-%5Ctau%5E*%29)
 
 
 ## Second Perturbation
