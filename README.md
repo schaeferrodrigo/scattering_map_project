@@ -14,10 +14,22 @@ In these cases the scattering map can be approximated by the level curves of the
 ### Reduced Poincaré function:
 ![Meln_pote_1](https://latex.codecogs.com/gif.latex?%5Cmathcal%7BL%7D%5E*%28I%2C%5Ctheta%29%20%3D%20A_1%28I%29%5Ccos%28%5Ctheta%20-%20I%5Ctau%5E*%29%20&plus;%20A_2%5Ccos%28-%5Ctau%5E*%29)
 
-structure of the script:
+### Structure of the script:
 - given I and theta, to find ![tau](https://latex.codecogs.com/gif.latex?%5Ctau%5E*)
-- to apply I , theta and  ![tau](https://latex.codecogs.com/gif.latex?%5Ctau%5E*) in  the reduced poincare function (to save this values in a matrix)
+- to apply I , theta and ![tau](https://latex.codecogs.com/gif.latex?%5Ctau%5E*) in  the reduced poincare function (to save this values in a matrix)
 - to plot the level curves
+
+### How to find ![tau](https://latex.codecogs.com/gif.latex?%5Ctau%5E*): 
+
+Whe have to look for the intersecction between crests and NHIM lines.![tau](https://latex.codecogs.com/gif.latex?%5Ctau%5E*) satisfies
+
+![eq_crest](https://latex.codecogs.com/gif.latex?%5Calpha%28I%29%5Cmu_1%20%5Csin%28%5Cvarphi%20-%20I%5Ctau%29%20&plus;%20%5Csin%28-%5Ctau%29%20%3D%200)
+
+
+
+
+
+
 
 ## Second Perturbation
 
