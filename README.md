@@ -2,7 +2,7 @@
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-# Caso 2 + 1/2 degree of freedom:
+# 2 + 1/2 degree of freedom case:
 
 ## The simplest perturbation:
 
@@ -18,7 +18,7 @@ This case is published on [DS2107](https://link.springer.com/article/10.1134/S15
 This case is published on [DS2107b](https://arxiv.org/pdf/1710.00029.pdf)
 
 
-# Caso 3 + 1/2 degree of freedom
+# Caso 3 + 1/2 degree of freedom case
 
 ## The simplest perturbation
 
