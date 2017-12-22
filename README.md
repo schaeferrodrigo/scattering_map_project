@@ -31,6 +31,14 @@ Steps:
 - to apply the bissection method for these candidates.
 - to apply the secant method to obtain a better solution.
 
+### Observations:
+
+* theta = phi - Is by definition. I can fix s = 0, so theta = phi.
+* Highways are the level curves of ![L*](https://latex.codecogs.com/gif.latex?%5Cmathcal%7BL%7D%5E*) such that 
+        ![hig](https://latex.codecogs.com/gif.latex?%5Cmathcal%7BL%7D%5E*%20%28I%2C%5Ctheta%29%20%3D%20A_2)
+ 
+ * Note that : ![ini_high](https://latex.codecogs.com/gif.latex?%5Cmathcal%7BL%7D%5E*%20%280%2C3%5Cpi/2%29%20%3D%20A_2)
+
 
 
 
