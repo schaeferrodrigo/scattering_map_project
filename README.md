@@ -38,23 +38,45 @@ Steps:
  
  * Note that : ![ini_high](https://latex.codecogs.com/gif.latex?%5Cmathcal%7BL%7D%5E*%20%280%2C3%5Cpi/2%29%20%3D%20A_2)
 
-*FILE:* [scat_map_frist_pert.zip](https://github.com/schaeferrodrigo/scattering_map_project/blob/master/scat_map_first_pert.zip) 
+**FILE:** [scat_map_frist_pert.zip](https://github.com/schaeferrodrigo/scattering_map_project/blob/master/scat_map_first_pert.zip) 
 
 
+## Second Perturbation ![sec_pert](https://latex.codecogs.com/gif.latex?%5Ccos%20q%20%28a_1%5Ccos%5Cvarphi%20&plus;%20%5Ccos%28%5Cvarphi-s%29%29)
 
+This case is published on [DS2107b](https://arxiv.org/pdf/1710.00029.pdf).
 
+### Reduced Poincaré function:
+![red_poin_2](https://latex.codecogs.com/gif.latex?%5Cmathcal%7BL%7D%5E*%28I%2C%5Ctheta%29%20%3D%20A_1%28I%29%5Ccos%5Cvarphi%20&plus;%20A_2%28I%29%5Ccos%28%5Csigma%20-%20%28I-1%29%5Ctau%5E*%29%2C%20%5Cquad%20%5Ctext%7Bwhere%7D%5Cquad%20%5Csigma%20%3D%20%5Cvarphi%20-s)
 
+### Structure of the script:
 
-## Second Perturbation
+ - The same for the simplest perturbation.
+ 
+ ### How to find ![tau](https://latex.codecogs.com/gif.latex?%5Ctau%5E*): 
 
-This case is published on [DS2107b](https://arxiv.org/pdf/1710.00029.pdf)
+We have to look for the intersecction between crests and NHIM lines.![tau](https://latex.codecogs.com/gif.latex?%5Ctau%5E*) satisfies
 
+![eq_crest_2](https://latex.codecogs.com/gif.latex?A_1%28I%29I%5Csin%28%5Cvarphi%20-%20I%5Ctau%29%20&plus;%20%28I-1%29A_2%28I%29%5Csin%28%5Csigma%20-%20%28I-1%29%5Ctau%29%20%3D%200)
+
+Steps:
+  - very similar.
+
+### Observations:
+
+* theta = phi - Is by definition. I can fix s = 0, so theta = phi.
+* There is no highway.
+* This code generate a special combination of scattering maps. Two straight lines in phi = pi/2 and phi = 3 * phi/2 where the scattering maps is discontinuous.
+
+**FILE:** [scat_map_frist_pert.zip](https://github.com/schaeferrodrigo/scattering_map_project/blob/master/scat_map_first_pert.zip) 
+
+ 
+ 
 
 # Caso 3 + 1/2 degree of freedom case
 
 ## The simplest perturbation
 
-## Second Perturbation
+## Second Perturbation 
 
 
 
