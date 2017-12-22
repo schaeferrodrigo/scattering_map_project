@@ -2,12 +2,12 @@
 
 ## The simplest perturbation:
 
-This case is published on DS2107 (https://link.springer.com/article/10.1134/S1560354717010051).
+This case is published on [DS2107](https://link.springer.com/article/10.1134/S1560354717010051)
 
 
 ## Second Perturbation
 
-This case is published on DS2107b (https://arxiv.org/pdf/1710.00029.pdf)
+This case is published on [DS2107b](https://arxiv.org/pdf/1710.00029.pdf)
 
 
 # Caso 3 + 1/2 degree of freedom
