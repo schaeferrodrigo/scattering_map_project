@@ -3,7 +3,7 @@
 ## The simplest perturbation:
 
 This case is published on [DS2107](https://link.springer.com/article/10.1134/S1560354717010051)
-\\(\frac{1}}{2}\\)
+$\frac{1}}{2}$
 
 
 ## Second Perturbation
