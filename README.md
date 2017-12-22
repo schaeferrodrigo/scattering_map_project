@@ -21,7 +21,7 @@ In these cases the scattering map can be approximated by the level curves of the
 
 ### How to find ![tau](https://latex.codecogs.com/gif.latex?%5Ctau%5E*): 
 
-Whe have to look for the intersecction between crests and NHIM lines.![tau](https://latex.codecogs.com/gif.latex?%5Ctau%5E*) satisfies
+We have to look for the intersecction between crests and NHIM lines.![tau](https://latex.codecogs.com/gif.latex?%5Ctau%5E*) satisfies
 
 ![eq_crest](https://latex.codecogs.com/gif.latex?%5Calpha%28I%29%5Cmu_1%20%5Csin%28%5Cvarphi%20-%20I%5Ctau%29%20&plus;%20%5Csin%28-%5Ctau%29%20%3D%200)
 
