@@ -2,7 +2,7 @@
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-# Caso 2 + 1/2 degree of freedom:
+# Caso 2 + 1/2 degree of freedom:teste
 
 ## The simplest perturbation:
 
