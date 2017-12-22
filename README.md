@@ -38,7 +38,7 @@ Steps:
  
  * Note that : ![ini_high](https://latex.codecogs.com/gif.latex?%5Cmathcal%7BL%7D%5E*%20%280%2C3%5Cpi/2%29%20%3D%20A_2)
 
-
+*FILE:* [scat_map_frist_pert.tar](https://github.com/schaeferrodrigo/scattering_map_project/blob/master/scat_map_first_pert.tar) 
 
 
 
