@@ -52,7 +52,7 @@ This case is published on [DS2107b](https://arxiv.org/pdf/1710.00029.pdf).
 
  - The same for the simplest perturbation.
  
- ### How to find ![tau](https://latex.codecogs.com/gif.latex?%5Ctau%5E*): 
+### How to find ![tau](https://latex.codecogs.com/gif.latex?%5Ctau%5E*): 
 
 We have to look for the intersecction between crests and NHIM lines.![tau](https://latex.codecogs.com/gif.latex?%5Ctau%5E*) satisfies
 
