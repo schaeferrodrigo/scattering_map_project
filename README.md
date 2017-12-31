@@ -76,6 +76,9 @@ Steps:
 
 ## The simplest perturbation ![312_first](https://latex.codecogs.com/gif.latex?a_1%20%5Ccos%5Cvarphi_1%20&plus;%20a_2%5Ccos%5Cvarphi_2%20&plus;%20a_3%5Ccos%20s):
 
+### Reduced Poincaré function:
+![312Red_Poinc_fun](https://latex.codecogs.com/gif.latex?%5Cmathcal%7BL%7D%28I%2C%5Ctheta%29%3D%20A_1%28I_1%29%20%5Ccos%28%5Cvarphi_1%20-%20%5Comega_1%5Ctau%5E*%29%20&plus;%20A_2%28I_2%29%20%5Ccos%28%5Cvarphi_2-%5Comega_2%5Ctau%5E*%29%20&plus;%20A_3%20%5Ccos%5Ctau%5E*)
+
 ## Second Perturbation ![312_second](https://latex.codecogs.com/gif.latex?a_1%20%5Ccos%5Cvarphi_1%20&plus;%20a_2%5Ccos%5Cvarphi_2%20&plus;%20a_3%5Ccos%20%28%5Cvarphi_1%20&plus;%20%5Cvarphi_2%20-%20s%29)
 
 In progress
