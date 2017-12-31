@@ -67,7 +67,7 @@ Steps:
 * There is no highway.
 * This code generate a special combination of scattering maps. Two straight lines in phi = pi/2 and phi = 3 * phi/2 where the scattering maps is discontinuous.
 
-**FILE:** [scat_map_frist_pert.zip](https://github.com/schaeferrodrigo/scattering_map_project/blob/master/scat_map_first_pert.zip) 
+**FILE:** [scat_second_pert.zip](https://github.com/schaeferrodrigo/scattering_map_project/blob/master/scat_second_pert.zip) 
 
  
  
