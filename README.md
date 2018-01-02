@@ -84,8 +84,8 @@ Steps:
   * To solve (by fixed point method)  
   ![pto_fixo](https://latex.codecogs.com/gif.latex?%5Ctheta%5E%7Bk&plus;1%7D%20%3D%20%5Ctheta%5Ek%20-%20%5Cvarepsilon%20%5Cpartial_I%20%5Cmathcal%7BL%7D%28I%5Ek%20%2C%20%5Ctheta%5E%7Bk&plus;1%7D%29) 
    * and apply </br>
-   ![I-k+1](https://latex.codecogs.com/gif.latex?I%5E%7Bk&plus;1%7D%20%3D%20I%5Ek%20&plus;%20%5Cvarepsilon%20%5Cpartial_%7B%5Ctheta%7D%20%5Cmathcal%7BL%7D%28I%5Ek%20%2C%20%5Ctheta%5E%7Bk&plus;1%7D%29)  </br>
- **rem:** in each step we have to computate tau^*. It is done in the same method used for 2+1/2 dim. 
+   ![I-k+1](https://latex.codecogs.com/gif.latex?I%5E%7Bk&plus;1%7D%20%3D%20I%5Ek%20&plus;%20%5Cvarepsilon%20%5Cpartial_%7B%5Ctheta%7D%20%5Cmathcal%7BL%7D%28I%5Ek%20%2C%20%5Ctheta%5E%7Bk&plus;1%7D%29)  
+   **rem:** in each step we have to computate tau^*. It is done in the same method used for 2+1/2 dim. 
 
 ### Poincaré Section 
 
