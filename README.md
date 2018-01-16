@@ -1,7 +1,3 @@
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
 We want to describe the scattering maps and consequently diffusion paths.
 
 # 2 + 1/2 degree of freedom case:
