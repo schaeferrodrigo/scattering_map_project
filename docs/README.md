@@ -102,7 +102,7 @@ And I look at the plot for the variables (theta_2 , I_2).
 
 
 
-[follow](teste_2.md)
+[follow](3dof_second_perturbation.md)
 
 
 ### Thecnical information
