@@ -47,7 +47,7 @@ def SM( PS , iv_I_1 , iv_I_2 , iv_theta_1 , iv_theta_2 , n_steps = 0  ):
         iv_I_1 , iv_I_2 = I_11 , I_12
         iv_theta_1 , iv_theta_2 = theta
         n_steps += 1
-        #print 'numero de passos = ' , n_steps
+        print 'numero de passos = ' , n_steps
     #print len(theta_2_values) , verification
     #print 'erro = ' , max_error
     return np.array([I_1_values , I_2_values , theta_1_values , theta_2_values])

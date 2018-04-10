@@ -14,6 +14,7 @@ def many_scattering_maps( domain_I_1 , domain_I_2 , domain_theta_1 , domain_thet
     "iteraçao para gerar varias órbitas de um scattering map , PS = without (default) or with Poincaré section "
     dic_I_1  , dic_I_2 , dic_theta_1 , dic_theta_2 = {}  , {} , {} , {}
     for init_I_1 in domain_I_1:
+        print init_I_1
         for init_I_2 in domain_I_2:
             for init_theta_1 in domain_theta_1:
                 for in_theta_2 in domain_theta_2:
