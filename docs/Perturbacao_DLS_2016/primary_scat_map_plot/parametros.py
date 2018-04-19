@@ -9,7 +9,7 @@ Omega_1 = 1. # 'coeficiente' do I_1
 Omega_2 = 1.  # 'coeficiente' do I_2
 eps = 0.01   # epsilon da perturbaçao
 #------------------------
-max_steps = 10000 #número máximo de iteraçoes do scattering map
+max_steps = 50000 #número máximo de iteraçoes do scattering map
 n_steps = 0 # contador de  passos
 #-------------------------
 #iv_I_1 =  0.1  #valor inicial de I_1
