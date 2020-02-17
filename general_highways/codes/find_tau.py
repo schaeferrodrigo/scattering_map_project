@@ -21,13 +21,13 @@ def bissec_method( I , theta , tau_1 , tau_2  , tol = 1e-2):
     return [tau_1 , tau_2]
 
 def secant_method(I , theta, tau_1 , tau_2 , tol = 1e-10):
-    tau_sec = tau_1 - eq_crest(I, theta, tau_1)*( tau_1 - tau_2)/(eq_crest( I , theta, tau_1 ) - eq_crest( I , theta , tau_2) )
+    tau_sec = tau_1 - eq_crest(I, theta, tau_1)*( tau_1 - tau_2)/(eq_crest( I , theta, tau_1) - eq_crest( I , theta , tau_2) )
     while np.abs( eq_crest(I, theta , tau_sec) ) > tol:
         if eq_crest( I , theta , tau_1 ) * eq_crest( I , theta , tau_sec) < 0 :
             tau_2  = tau_sec
         else:
             tau_1 = tau_sec
-        tau_sec =  tau_1 - eq_crest(I, theta, tau_1)*( tau_1 - tau_2)/(eq_crest( I , theta, tau_1 ) - eq_crest( I , theta , tau_2) )
+        tau_sec =  tau_1 - eq_crest(I, theta, tau_1)*( tau_1 - tau_2)/(eq_crest( I , theta, tau_1) - eq_crest( I , theta , tau_2) )
     return tau_sec
 
 def tau(I , theta ,sign , tau_initial = 0 , step = 0.05):
@@ -50,7 +50,7 @@ def tau(I , theta ,sign , tau_initial = 0 , step = 0.05):
     return tau_star
 
 def assign_tau( I, theta ):
-    tau_pos = tau( I , theta , 'pos' )
+    tau_pos = tau( I , theta , 'pos')
     tau_neg = tau( I , theta , 'neg' )
     if np.minimum( np.abs(tau_neg) , np.abs(tau_pos) ) == np.abs(tau_neg):
         val_of_tau = tau_neg

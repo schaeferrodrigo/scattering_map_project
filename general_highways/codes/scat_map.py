@@ -13,7 +13,7 @@ def SM( domain_I , domain_theta ,step_1 ):
     poin_fun_theta , poin_fun_I = [] , []
     dotI_theta , dotI_I , dotTheta_theta , dotTheta_I = [] , [] , [ ] , []
     for I in domain_I:
-        print 'I = ' , I
+        print( 'I = ' , I)
         for theta in domain_theta:
             value_of_tau = assign_tau( I , theta )
             poin_fun_theta.append(red_poi_fun(I, theta , value_of_tau) )
@@ -22,9 +22,9 @@ def SM( domain_I , domain_theta ,step_1 ):
         poin_fun_theta = []
         dotI_I.append( dotI_theta  )
         dotI_theta = []
-    print len(poin_fun_I)
+    print( len(poin_fun_I))
     SM_table = np.array(poin_fun_I)
-    print len(SM_table)
+    print( len(SM_table))
     behavior_I =  np.array(dotI_I)
     #behavior_theta =  dotTheta_I
 #
