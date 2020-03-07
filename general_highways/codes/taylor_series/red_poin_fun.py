@@ -6,7 +6,7 @@ from parametros import *
 from functions import *
 from find_tau import *
 #==============================================================================
-def red_poi_fun( I , theta , tau):
+def red_poi_fun( I , theta , tau ,r=0):
     '''funçao reduzida de Poincaré'''
     red = A(I,a_1) * np.cos( theta - I * tau) + A(I*r - 1,a_2) * np.cos( r*theta -(I*r-1)* tau)
     return red

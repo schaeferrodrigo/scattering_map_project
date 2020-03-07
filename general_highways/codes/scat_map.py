@@ -7,6 +7,7 @@ from functions import *
 from find_tau import *
 from red_poin_fun import *
 from conf_plot import *
+from approx_frp import level_curves
 #==============================================================================
 def SM( domain_I , domain_theta ,step_1 ):
     fig = plt.figure(facecolor= 'white')
@@ -36,6 +37,10 @@ def SM( domain_I , domain_theta ,step_1 ):
         beh = behavior_I[ y , x ]
         return beh
     #
+
+    levels_h = sorted( level_curves())
+
+
     y = np.arange(0 , len( domain_I ) , 1 )
     x = np.arange( 0 , len( domain_theta ) , 1 )
     x, y = np.meshgrid(x,y)
@@ -43,6 +48,7 @@ def SM( domain_I , domain_theta ,step_1 ):
     plt.contour( x , y , z , 20 , colors = 'blue' , linestyles = 'solid' )
     z_1 = beh_I( x , y )
     plt.contourf( x , y , z_1 , [-1000 , -0.000001 , 0.000001 , 1000]  , colors = ( 'red' , 'white' , 'green' ) , alpha = 0.3)
+    plt.contour( x , y , z , levels = levels_h , colors = 'black' , linestyles = 'solid' )
     plt.contour( x , y , z_1 , levels = [ 0 ] , colors = 'black' , linestyles = 'solid' )
     config_graph( domain_I , domain_theta ,step_1)
     #name_file =  str(par.mu)+ '.svg'

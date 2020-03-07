@@ -31,22 +31,22 @@ def theta_H(I):
     return (theta)%(2*np.pi)
 
 
-def level_curves():
-    highway_h, highway_H = [],[]
-    for I in domain_I:
-        tau_h,tau_H = tau_highways(I)
-        print("tau_h",tau_h)
-        red_Poin_r_h = red_poin_approx(I, theta_h(I),tau_h)
-        red_Poin_r_H = red_poin_approx(I, theta_H(I),tau_H)
-        highway_h.append(red_Poin_r_h)
-        highway_H.append(red_Poin_r_H)
-    m_h,med_h,M_h = min(highway_h),st.median(highway_h),max(highway_h)
-    m_H,med_H,M_H = min(highway_H),st.median(highway_H),max(highway_H)
-    return [m_h,M_h,m_H , M_H]
+# def level_curves():
+#     highway_h, highway_H = [],[]
+#     for I in domain_I:
+#         tau_h,tau_H = tau_highways(I)
+#         print("tau_h",tau_h)
+#         red_Poin_r_h = red_poin_approx(I, theta_h(I),tau_h)
+#         red_Poin_r_H = red_poin_approx(I, theta_H(I),tau_H)
+#         highway_h.append(red_Poin_r_h)
+#         highway_H.append(red_Poin_r_H)
+#     m_h,med_h,M_h = min(highway_h),st.median(highway_h),max(highway_h)
+#     m_H,med_H,M_H = min(highway_H),st.median(highway_H),max(highway_H)
+#     return [m_h,M_h,m_H , M_H]
 
 # construction zone=============================================================
-
-print(level_curves())
+# 
+# print(level_curves())
 
 
 
