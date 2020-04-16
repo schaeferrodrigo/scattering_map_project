@@ -6,28 +6,29 @@ import matplotlib.pyplot as plt
 from parametros import *
 from red_poin_fun import red_poin_approx
 import statistics as st
+import bigfloat as bf
 #===============================================================================
 
 def function_f(I):
-    num = (I**2)*A(-1,a_2)-np.sqrt(A(-1,a_2)**2 +(I**2-1)*(I**2)*A(I,a_1)**2)
+    num = (I**2)*A(-1,a_2)-bf.sqrt(A(-1,a_2)**2 +(I**2-1)*(I**2)*A(I,a_1)**2)
     den = (I**2 - 1) * A(-1,a_2)
     return num/den
 
 def tau_highways(I):
-    tau_h = np.sign(I)*np.arccos(function_f(I))
-    tau_H = -np.sign(I)*np.arccos(function_f(I))
+    tau_h = np.sign(I)*bf.acos(function_f(I))
+    tau_H = -np.sign(I)*bf.acos(function_f(I))
     return [tau_h , tau_H]
 
 def theta_h(I):
     num,den = A(-1,a_2)*(1-function_f(I)),A(I,a_1)
-    main_part = np.arccos(num/den)
-    theta = main_part + np.sign(I)*I*np.arccos(function_f(I))
+    main_part = bf.acos(num/den)
+    theta = main_part + np.sign(I)*I*bf.acos(function_f(I))
     return theta
 
 def theta_H(I):
     num,den = A(-1,a_2)*(1-function_f(I)), A(I,a_1)
-    main_part = np.arccos(num/den)
-    theta = -main_part -np.sign(I) *I*np.arccos(function_f(I))
+    main_part = bf.acos(num/den)
+    theta = -main_part -np.sign(I) *I*bf.acos(function_f(I))
     return (theta)%(2*np.pi)
 
 
@@ -45,7 +46,7 @@ def theta_H(I):
 #     return [m_h,M_h,m_H , M_H]
 
 # construction zone=============================================================
-# 
+#
 # print(level_curves())
 
 

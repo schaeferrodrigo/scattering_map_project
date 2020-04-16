@@ -4,11 +4,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 from parametros import *
 from functions import *
+import bigfloat as bf
 #===============================================================================
  # método numerico encontrar tau
 
 def eq_crest(I , theta , tau , r = 0):
-    crista = I * A( I , a_1 ) * np.sin( theta - I * tau) + (I*r-1) *A( I*r -1 , a_2 ) * np.sin(r*theta- (I*r-1) *tau)
+    crista = I * A( I , a_1 ) * bf.sin( theta - I * tau) + (I*r-1) *A( I*r -1 , a_2 ) * bf.sin(r*theta- (I*r-1) *tau)
     return crista
 
 def bissec_method( I , theta , tau_1 , tau_2  , tol = 1e-2 , r = 0):
